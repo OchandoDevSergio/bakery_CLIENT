@@ -1,11 +1,23 @@
 .header {
-    height: 5em;
+    height: 4em;
     width: 96em;
 
-    background-color:black;
+    background-color:rgb(60,32,20);
     color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    /* font-family: Cambria; */
+    font-family:Verdana;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.spacerDiv {
+    width: 55em;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: rgb(188,149,44);
 }

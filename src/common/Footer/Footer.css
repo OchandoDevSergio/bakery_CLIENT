@@ -2,8 +2,9 @@
     height: 2em;
     width: 96em;
 
-    background-color:black;
+    background-color:rgb(60,32,20);
     color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
 
     display: flex;
     justify-content: baseline;
