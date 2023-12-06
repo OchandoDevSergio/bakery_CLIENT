@@ -1,9 +1,7 @@
-
-
-
+import "./Home.css";
 
 export const Home = () => {
 
     return (
-    <div>Soy Home</div>
+    <div className="home"/>
     )};
