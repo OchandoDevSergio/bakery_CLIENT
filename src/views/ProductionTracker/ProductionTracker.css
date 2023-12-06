@@ -1,7 +1,33 @@
+.subheader {
+    height: 4em;
+    width: 96em;
+
+    background-color:rgb(60,32,20);
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    /* font-family: Cambria; */
+    font-family:Verdana;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .productionTracker {
-    height: 38.7em;
+    height: 34.7em;
     background-image:url(https://iili.io/JIly1PS.md.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
+}
+
+.trackerButton {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family:Verdana;
+}
+
+.trackerButton:hover {
+    cursor: pointer;
+    color: rgb(188,149,44);
 }

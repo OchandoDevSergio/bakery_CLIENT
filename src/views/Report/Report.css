@@ -4,4 +4,33 @@
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reporterScreen {
+    height: 15em;
+    width: 40em;
+    /* background-color: rgb(60,32,20); */
+    background-color: rgb(188,149,44);
+    box-shadow: inset 0em 0em 1em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.button {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family:Verdana;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: rgb(60,32,20);
 }

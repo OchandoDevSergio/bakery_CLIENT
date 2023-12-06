@@ -8,8 +8,8 @@ export const Header = () => {
 return (
 <div className="header">
     <div className="spacerDiv"></div>
-    <div className="button" onClick={() => navigate("/")}>INICIO</div>
-    <div className="button" onClick={() => navigate("/report")}>REPORTAR PRODUCCION</div>
-    <div className="button" onClick={() => navigate("/tracker")}>REGISTRO DE PRODUCCION</div>
+    <div className="headerButton" onClick={() => navigate("/")}>INICIO</div>
+    <div className="headerButton" onClick={() => navigate("/report")}>REPORTAR PRODUCCION</div>
+    <div className="headerButton" onClick={() => navigate("/tracker")}>REGISTRO DE PRODUCCION</div>
 </div>
 )};
