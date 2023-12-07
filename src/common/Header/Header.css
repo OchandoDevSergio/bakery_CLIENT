@@ -1,11 +1,10 @@
 .header {
     height: 4em;
-    width: 96em;
+    /* width: 96em; */
 
     background-color:rgb(60,32,20);
     color:white;
     text-shadow: black 0.1em 0.1em 0.2em;
-    /* font-family: Cambria; */
     font-family:Verdana;
 
     display: flex;

@@ -5,7 +5,6 @@
     background-color:rgb(60,32,20);
     color:white;
     text-shadow: black 0.1em 0.1em 0.2em;
-    /* font-family: Cambria; */
     font-family:Verdana;
 
     display: flex;
@@ -19,6 +18,9 @@
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .trackerButton {
@@ -30,4 +32,13 @@
 .trackerButton:hover {
     cursor: pointer;
     color: rgb(188,149,44);
+}
+
+.gridContainer {
+    height: 26.5em;
+    width:50em;
+}
+
+.grid {
+    background-color:burlywood;
 }

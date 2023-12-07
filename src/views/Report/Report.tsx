@@ -29,7 +29,7 @@ export const Report = () => {
           };    
 
     return (
-    <div className="report">
+    <div className="report container-fluid">
         <div className="reporterScreen">
             <div>REPORTE DE PRODUCCION</div>
             <div>            
